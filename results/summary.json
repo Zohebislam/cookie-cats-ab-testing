@@ -1,0 +1,80 @@
+{
+  "quality": {
+    "rows": 90189,
+    "duplicate_userids": 0,
+    "missing_values": 0,
+    "players_control": 44700,
+    "players_treatment": 45489,
+    "zero_round_players": 3994,
+    "zero_round_share": 0.0442847797403231,
+    "rounds_median": 16.0,
+    "rounds_p99": 493.0,
+    "rounds_max": 49854,
+    "rounds_max_group": "gate_30",
+    "rounds_second_max": 2961,
+    "retained_7_not_1": 3599
+  },
+  "srm": {
+    "n_a": 44700,
+    "n_b": 45489,
+    "share_a": 0.49562585237667567,
+    "chi2": 6.9024049496058275,
+    "p_value": 0.008607987810836262
+  },
+  "srm_worst_case": {
+    "retention_1": {
+      "removed_players": 789,
+      "diff": 0.0019015659955257669,
+      "p_value": 0.5676406407519317,
+      "ci_low": -0.004619519652214366,
+      "ci_high": 0.008422651643265899
+    },
+    "retention_7": {
+      "removed_players": 789,
+      "diff": -0.004988814317673368,
+      "p_value": 0.056129700085283535,
+      "ci_low": -0.010107954210090041,
+      "ci_high": 0.00013032557474330648
+    }
+  },
+  "rounds": {
+    "median_a": 17.0,
+    "median_b": 16.0,
+    "median_diff": -1.0,
+    "median_diff_ci_low": -1.0,
+    "median_diff_ci_high": 0.0,
+    "mann_whitney_p": 0.05020880772044255,
+    "prob_b_plays_more": 0.49623671809341224
+  },
+  "sequential_on_real_data": {
+    "z_retention_7": -3.164358912748191,
+    "obf_final_boundary": 2.1026020777185166,
+    "pocock_final_boundary": 2.503348845119026,
+    "passes_obf": true,
+    "passes_pocock": true,
+    "msprt_p_at_end": 0.036563810233594105
+  },
+  "permutation_aa": {
+    "n_sims": 2000,
+    "fixed": {
+      "rate": 0.0535,
+      "se": 0.005031786462082826
+    },
+    "naive_peeking": {
+      "rate": 0.2095,
+      "se": 0.009099718402236412
+    },
+    "gsd_obf": {
+      "rate": 0.0545,
+      "se": 0.005075911248239078
+    }
+  },
+  "simulation_settings": {
+    "n_sims": 50000,
+    "n_perm": 2000,
+    "looks": 14,
+    "alpha": 0.05,
+    "msprt_tau": 0.01,
+    "base_rate": 0.1860648194347426
+  }
+}

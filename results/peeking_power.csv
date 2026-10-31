@@ -1,0 +1,8 @@
+method,label,reject_rate,reject_rate_se,avg_sample_used,median_stop_day_if_rejected
+fixed,Fixed horizon (look once at the end),0.88784,0.0014112415413386897,1.0,14.0
+naive_peeking,Naive peeking (stop the first day p < 0.05),0.93018,0.0011396944116735853,0.4082465045626406,4.0
+gsd_obf,"Group sequential, O'Brien-Fleming",0.87532,0.0014773956653517028,0.7068609524443114,9.0
+gsd_pocock,"Group sequential, Pocock",0.80776,0.001762292724833193,0.6129369479648293,7.0
+msprt,mSPRT (always-valid p-values),0.62158,0.0021689550645414488,0.7512690312565834,8.0
+bayes_peeking,Bayesian peeking (stop when P(better) > 97.5%),0.93016,0.0011398453789878695,0.40830222266573524,4.0
+bayes_peeking_95,Bayesian peeking (stop when P(better) > 95%),0.96082,0.0008676972697894122,0.3203634232556076,3.0
