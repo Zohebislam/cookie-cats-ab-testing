@@ -1,5 +1,7 @@
 # Cookie Cats A/B Test: Analysis and the Peeking Problem
 
+**Live App:** https://cookie-cats-ab-test1.streamlit.app/ 
+
 A mobile game tested moving its first "gate" (a forced wait) from level 30 to level 40.
 This project analyzes that experiment with 90,189 players, then uses simulation to show why
 checking A/B test results early produces false wins, and how to fix it.
